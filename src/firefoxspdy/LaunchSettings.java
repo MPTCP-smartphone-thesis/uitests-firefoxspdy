@@ -7,7 +7,7 @@ import common.FirefoxCommon;
 public class LaunchSettings extends UiAutomatorTestCase {
 
 	public void testDemo() throws UiObjectNotFoundException {
-		new FirefoxCommon(this, true).testDemo();
+		new FirefoxCommon(this, true, true).testDemo();
 	}
 
 }
